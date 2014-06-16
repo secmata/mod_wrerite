@@ -1,5 +1,4 @@
 mod_wrerite
-===========
   
   <IfModule mod_rewrite.c>
       RewriteEngine On
