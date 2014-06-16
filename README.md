@@ -1,5 +1,6 @@
 mod_wrerite
 ===========
+  
   <IfModule mod_rewrite.c>
       RewriteEngine On
       RewriteBase /my_site/
