@@ -49,7 +49,6 @@ mod_wrerite
 	=> $config['index_page'] = ''; 
 	=> $config['base_url']	= 'http://localhost/my_site'; 
 
-
 4. http://localhost/my_site/welcome/site
 
 	echo base_url(); 
