@@ -36,19 +36,19 @@ mod_wrerite
       ErrorDocument 404 /index.php
   </IfModule> 
   
-1. my_site\ .htaccess
+1 my_site\ .htaccess
 
 	=> RewriteBase /my_site/
 
-2. my_site\application\config\autoload.php
+2 my_site\application\config\autoload.php
 
 	=> $autoload['helper'] = array('url'); 
 
-3. my_site\application\config\config.php 
+3 my_site\application\config\config.php 
 
 	=> $config['index_page'] = ''; 
 	=> $config['base_url']	= 'http://localhost/my_site'; 
 
-4. http://localhost/my_site/welcome/site
+4 http://localhost/my_site/welcome/site
 
 	echo base_url(); 
