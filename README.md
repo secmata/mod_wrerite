@@ -36,7 +36,7 @@ mod_wrerite
       ErrorDocument 404 /index.php
   </IfModule> 
   
-1 my_site\ .htaccess
+1. my_site\ .htaccess
 
 	=> RewriteBase /my_site/
 
